@@ -32,33 +32,54 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 **Entity Relationship Diagram:**  
 
 
----
+-![EER Diagram](Sakila_EER_Diagram.png)
 
 
 ## 🎯 Business Questions Addressed
 
-### Revenue Analysis
-1. What is the total revenue and which store performs better?
-2. What are the monthly revenue trends?
-3. Which product categories drive the most revenue?
-4. What is the average transaction value?
+### Customer Behavior & Segmentation
+1. Who are the top 10 customers by lifetime value?
+2. Which customers have not rented in a long time?
+3. What is the average number of rentals per customer?
+4. Which city has the most customers?
 
-### Customer Intelligence
-1. Who are the top revenue-generating customers?
-2. How can we segment customers by value?
-3. What is the customer retention rate?
-4. Which geographic regions have the most customers?
 
-### Inventory Optimization
-1. Which films are most/least popular?
-2. What is the inventory turnover rate by film?
-3. Are there underperforming films to remove?
-4. Which ratings (G, PG, R) perform best?
+### Revenue & Financial Analysis
+1. What is the total revenue generated from all rentals?
+2. Which film category generates the highest revenue?
+3. Which film rating (G, PG, PG-13, R, NC-17) generates the most revenue?
+4. What percentage of total revenue comes from the top 10 films?
 
-### Operational Insights
-1. What are peak rental days/times?
-2. How do staff members compare in performance?
-3. What is the on-time vs late return rate?
+
+### Time-Based Analysis
+1. Which hour of the day has peak rentals?
+2. Which month has the lowest rental activity?
+3. What is the average rental count per weekday?
+
+
+### Staff & Store Performance
+1. Who is the top-performing staff member by revenue?
+2. Which staff member has the highest customer interaction volume?
+3. Which store has higher revenue per rental?
+
+### Inventory & Film Performance
+1. Average rental duration per film
+2. Which categories are most popular?
+3. Which films are never rented?
+4. Which films need more copies?
+
+### Risk & Business Problems
+1. What is the overall late return rate?
+2. How much revenue comes from late fees?
+3. Which films generate high revenue but have limited copies?
+4. What is the average penalty per late customer?
+
+
+### Strategic Business Questions
+1. Which underperforming categories could be reduced?
+2. Which store is likely to see higher growth next quarter?
+3. Which categories may face overuse risk?
+
 
 ---
 
