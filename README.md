@@ -1,15 +1,16 @@
 #  Sakila DVD Rental Analysis
 
-**A comprehensive business intelligence project analyzing a DVD rental database to uncover revenue opportunities, customer behavior patterns, and operational insights.**
+**Analyzed a DVD rental database to identify revenue opportunities, examine film performance, evaluate customer behavior patterns, assess staff performance, and generate operational insights.**
 
 ---
 
 ## 📊 Project Overview
 
-This project analyzes the Sakila sample database (MySQL) to provide actionable business insights for a DVD rental chain. The analysis covers revenue performance, customer segmentation, inventory optimization, and geographic expansion opportunities.
+This project analyzes the Sakila sample database (MySQL) to provide actionable business insights for a DVD rental chain. The analysis covers revenue performance, customer details, inventory optimization, film details and it's performance and geographic expansion opportunities.
 
 **Key Objectives:**
 - Identify top revenue-generating categories and films
+- Analyze films according to some values 
 - Segment customers based on value and behavior
 - Optimize inventory based on rental patterns
 - Discover geographic growth opportunities
@@ -29,9 +30,10 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 - `address`, `city`, `country` - Geographic data
 
 **Entity Relationship Diagram:**  
-*(Include ERD image here if available)*
+
 
 ---
+
 
 ## 🎯 Business Questions Addressed
 
