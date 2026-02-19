@@ -1,6 +1,9 @@
 #  Sakila DVD Rental Analysis
+Author: Thanmai Sankoju
 
-**Analyzed a DVD rental database to identify revenue opportunities, examine film performance, evaluate customer behavior patterns, assess staff performance, and generate operational insights.**
+Dataset: Sakila Database (MySQL)
+
+Tools Used: SQL | Python | Power BI | Excel | Tableau
 
 ---
 
@@ -47,20 +50,17 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 ### Revenue & Financial Analysis
 1. What is the total revenue generated from all rentals?
 2. Which film category generates the highest revenue?
-3. Which film rating (G, PG, PG-13, R, NC-17) generates the most revenue?
-4. What percentage of total revenue comes from the top 10 films?
+3. What percentage of total revenue comes from the top 10 films?
 
 
 ### Time-Based Analysis
-1. Which hour of the day has peak rentals?
-2. Which month has the lowest rental activity?
-3. What is the average rental count per weekday?
+1. Which month has the lowest rental activity?
+2. What is the average rental count per weekday?
 
 
 ### Staff & Store Performance
-1. Who is the top-performing staff member by revenue?
-2. Which staff member has the highest customer interaction volume?
-3. Which store has higher revenue per rental?
+1. Which staff member has the highest customer interaction volume?
+2. Which store has higher revenue per rental?
 
 ### Inventory & Film Performance
 1. Average rental duration per film
@@ -84,31 +84,24 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 ---
 
 ## 🔍 Key Findings
+### Customer Behavior & Segmentation
+1. Top 10 customers by lifetime value
+The top customers typically spend $170–$220+, showing a small loyal segment driving significant revenue. These are your VIP customers worth retaining.
+2. Customers not renting in a long time
+Most rentals in Sakila are from 2005–2006. 170-190 inactive days 
+3. Average rentals per customer
+The average is around ~26.78 rentals per customer, which is quite high — suggesting customers were repeat users, not one-time visitors.
+4. City with most customers
+Aurora tends to have the highest customer count in Sakila, indicating a strong urban customer base in that region.
+### Revenue & Financial Analysis
+### Time-Based Analysis
+### Staff & Store Performance
+### Inventory & Film Performance
+### Risk & Business Problems
+### Strategic Business Questions
 
-### Revenue Insights
-- **Total Revenue:** $67,416.51 across 16,044 transactions
-- **Top Category:** Sports generates 18.2% of revenue, followed by Animation and Action
-- **Store Performance:** Store 1 outperforms Store 2 by 12% in revenue
-- **Monthly Trend:** Revenue peaked in July 2005 ($28,373.89)
 
-### Customer Insights
-- **Customer Segmentation:**
-  - VIP (30+ rentals): 15% of customers, 38% of revenue
-  - Loyal (20-29 rentals): 28% of customers, 35% of revenue
-  - Regular/Casual: 57% of customers, 27% of revenue
-- **Top Customer:** Eleanor Hunt spent $211.55 across 46 rentals
-- **Geographic Distribution:** India (60 customers) and China (53 customers) lead
 
-### Inventory Insights
-- **Top Film:** "Bucket Brotherhood" rented 34 times, generating $108.77
-- **Rating Performance:** PG-13 films account for 32% of rentals
-- **Underutilized Films:** 42 films have never been rented (candidates for removal)
-- **High Demand:** 28 films with turnover rate >4 need additional copies
-
-### Operational Insights
-- **Peak Days:** Friday and Saturday account for 35% of weekly rentals
-- **Staff Performance:** Staff member 1 processed 8,040 rentals vs 8,004 for staff member 2
-- **Return Rate:** 87% on-time returns, 13% late returns
 
 ---
 
