@@ -84,21 +84,11 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 ---
 
 ## 🔍 Key Findings
-### Customer Behavior & Segmentation
-1. Top 10 customers by lifetime value
-The top customers typically spend $170–$220+, showing a small loyal segment driving significant revenue. These are your VIP customers worth retaining.
-2. Customers not renting in a long time
-Most rentals in Sakila are from 2005–2006. 170-190 inactive days 
-3. Average rentals per customer
-The average is around ~26.78 rentals per customer, which is quite high — suggesting customers were repeat users, not one-time visitors.
-4. City with most customers
-Aurora tends to have the highest customer count in Sakila, indicating a strong urban customer base in that region.
-### Revenue & Financial Analysis
-### Time-Based Analysis
-### Staff & Store Performance
-### Inventory & Film Performance
-### Risk & Business Problems
-### Strategic Business Questions
+### 👥 Customer Insights
+- Top customers spend **$170–$220+**, forming a high-value segment  
+- Many customers show inactivity after **170–190 days**  
+- Average rentals per customer: **~26.78** (high retention)  
+- Aurora has the highest customer base 
 
 
 
@@ -252,18 +242,6 @@ ORDER BY revenue DESC;
 - Bundle low-performing categories with popular films
 - Phase out Documentary and Travel categories
 
----
-
-## 📊 Visualizations
-
-### Monthly Revenue Trend
-![Monthly Revenue](visualizations/monthly_revenue_trend.png)
-
-### Revenue by Category
-![Category Revenue](visualizations/category_revenue.png)
-
-### Customer Segmentation
-![Customer Segments](visualizations/customer_segments.png)
 
 ---
 
@@ -282,10 +260,8 @@ ORDER BY revenue DESC;
 
 **Your Name**  
 Data Analyst  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-💻 [GitHub](https://github.com/yourusername)  
-📊 [Portfolio](https://yourportfolio.com)
+📧 thanmaisankoju@gmail.com 
+💻 [GitHub](https://github.com/thanmaisankoju-creator)  
 
 ---
 
@@ -300,9 +276,7 @@ This project uses the Sakila sample database provided by MySQL under the BSD Lic
 - MySQL for the Sakila sample database
 - Data analysis community for inspiration and best practices
 
----
 
-**⭐ If you found this analysis helpful, please consider giving it a star!**
 
 
 
@@ -312,9 +286,6 @@ This project uses the Sakila sample database provided by MySQL under the BSD Lic
 - MySQL
 - Sakila Database
 - SQL
-
-## Key Insights
-(Add your insights here after running queries)
 
 ## Conclusion
 This project demonstrates SQL skills including joins, aggregations, and window functions.
