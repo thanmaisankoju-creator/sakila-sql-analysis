@@ -7,7 +7,7 @@ Tools Used: SQL | Python | Power BI | Excel | Tableau
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This project analyzes the Sakila sample database (MySQL) to provide actionable business insights for a DVD rental chain. The analysis covers revenue performance, customer details, inventory optimization, film details and it's performance and geographic expansion opportunities.
 
@@ -21,7 +21,7 @@ This project analyzes the Sakila sample database (MySQL) to provide actionable b
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The Sakila database contains 16 tables modeling a DVD rental business:
 
@@ -38,7 +38,7 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 -![EER Diagram](Sakila_EER_Diagram.png)
 
 
-## 🎯 Business Questions Addressed
+##  Business Questions Addressed
 
 ### Customer Behavior & Segmentation
 1. Who are the top 10 customers by lifetime value?
@@ -80,11 +80,15 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 2. Which store is likely to see higher growth next quarter?
 3. Which categories may face overuse risk?
 
+## 📄 Detailed SQL Query Solutions
+
+👉 [View Complete Query Solutions Document](https://github.com/thanmaisankoju-creator/sakila-sql-analysis/blob/main/queries%20solutions%20(1).docx)
+
 
 ---
 
-## 🔍 Key Findings
-### 👥 Customer Insights
+##  Key Findings
+###  Customer Insights
 - Top customers spend **$170–$220+**, forming a high-value segment  
 - Many customers show inactivity after **170–190 days**  
 - Average rentals per customer: **~26.78** (high retention)  
@@ -95,7 +99,7 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 **Database:**
 - MySQL 8.0
@@ -115,7 +119,7 @@ The Sakila database contains 16 tables modeling a DVD rental business:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sakila-analysis/
@@ -149,7 +153,7 @@ sakila-analysis/
 
 ---
 
-## 🚀 How to Run This Analysis
+##  How to Run This Analysis
 
 ### Prerequisites
 ```bash
@@ -181,7 +185,7 @@ mysql -u root -p sakila < sql/revenue_analysis.sql
 
 ---
 
-## 📈 Sample Queries
+##  Sample Queries
 
 ### Top 10 Customers by Revenue
 ```sql
@@ -215,7 +219,7 @@ ORDER BY revenue DESC;
 
 ---
 
-## 💡 Business Recommendations
+##  Business Recommendations
 
 ### 1. Focus on High-Value Customers
 - Implement VIP loyalty program for top 15% of customers
@@ -245,7 +249,7 @@ ORDER BY revenue DESC;
 
 ---
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
 - **SQL Expertise:** Complex joins, subqueries, window functions, aggregations
 - **Data Analysis:** Customer segmentation, cohort analysis, trend analysis
@@ -256,7 +260,7 @@ ORDER BY revenue DESC;
 
 ---
 
-## 📧 Contact
+##  Contact
 
 **Your Name**  
 Data Analyst  
@@ -265,13 +269,13 @@ Data Analyst
 
 ---
 
-## 📄 License
+##  License
 
 This project uses the Sakila sample database provided by MySQL under the BSD License.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - MySQL for the Sakila sample database
 - Data analysis community for inspiration and best practices
